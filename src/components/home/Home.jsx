@@ -3,7 +3,7 @@ import React from "react";
 import me from "../../assets/me.png"
 import resume from "../../assets/resume.pdf";
 import tamu from "../../assets/icons/tamu.png"
-import paycom from "../../assets/icons/paycom.png";
+import collins from "../../assets/icons/collins.png";
 import mishra from "../../assets/icons/mishra.png";
 import lavner from "../../assets/icons/lavner.jfif";
 import conte from "../../assets/icons/conte.png";
@@ -123,13 +123,13 @@ const Home = () => {
               <div id="row">
                 <div id="col1">
                   <div id="img-title">
-                    <img src={paycom} alt="Paycom" class="icon" />
-                    <h3>Paycom</h3>
+                    <img src={collins} alt="Collins Aerospace" class="icon" />
+                    <h3>Collins Aerospace</h3>
                   </div>
-                  <h4 id="sub-img-title">Software Engineering Intern</h4>
+                  <h4 id="sub-img-title">Software Engineering Co-Op</h4>
                 </div>
                 <div id="col2">
-                  <h3>Summer 23</h3>
+                  <h3>Summer/Fall 23</h3>
                 </div>
               </div>
               <div id="row">
