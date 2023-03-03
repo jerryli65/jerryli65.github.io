@@ -38,18 +38,21 @@ const Contact = () => {
             type="text"
             name="name"
             placeholder="Your Full Name"
+            // font-family="Arial"
             required
           />
           <input
             type="email"
             name="email"
             placeholder="Your Email Address"
+            // font-family="Arial"
             required
           />
           <textarea
             name="message"
             rows="1"
             placeholder="Message"
+            // font-family="Arial"
             required
           />
           <button type="submit" className="btnsubmit">
