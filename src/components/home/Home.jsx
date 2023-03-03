@@ -101,6 +101,11 @@ const Home = () => {
 
           <hr id="vertical-divider" />
 
+          <div id="menu">
+            <div id="color-scheme">Color Scheme</div>
+            <div id="info-professional">Professional Info</div>
+            <div id="info-personal">Personal Info</div>
+          </div>
           <div id="info-card">
             <div id="section">
               <h2>Education</h2>

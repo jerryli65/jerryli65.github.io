@@ -186,6 +186,26 @@ img {
     text-align: center;
 }
 
+#menu {
+    display: block;
+    background-image: linear-gradient(to right, rgba(14, 209, 167, 0.4), rgba(215, 23, 167, 0.7));
+    padding-top: 40px;
+        width: 300px;
+        margin: auto;
+        text-align: center;
+        vertical-align: middle;
+
+}
+
+#topelement {
+    display: inline-block;
+        vertical-align: left;
+}
+
+#bottomelement {
+display: inline-block;
+    vertical-align: middle;
+}
 /* #info-card>* {
         font-size: 15px; 
 
