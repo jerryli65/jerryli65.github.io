@@ -50,7 +50,7 @@ const Home = () => {
                   target={"_blank"}
                   rel="noopener noreferrer"
                 >
-                  <BsLinkedin size={20} color={"white"} />
+                  <BsLinkedin size={20} color={"#caf1d7"} />
                   {/* LinkedIn */}
                 </a>
                 <a
@@ -59,15 +59,15 @@ const Home = () => {
                   target={"_blank"}
                   rel="noopener noreferrer"
                 >
-                  <AiFillGithub size={20} color={"white"} />
+                  <AiFillGithub size={20} color={"#caf1d7"} />
                 </a>
                 <a href="mailto: jerry.li479@gmail.com">
-                  <AiFillMail size={20} color={"white"} />
+                  <AiFillMail size={20} color={"#caf1d7"} />
                 </a>
                 <a href={resume} target="_blank" rel="noopener noreferrer">
                   {/* <i id="resume" class="far fa-file-pdf"></i> */}
                   {/* RESUME */}
-                  <AiFillFilePdf size={20} color={"white"} />
+                  <AiFillFilePdf size={20} color={"#caf1d7"} />
                 </a>
               </div>
               {/* <div id="skills">
@@ -101,12 +101,12 @@ const Home = () => {
 
           <hr id="vertical-divider" />
 
-          <div id="menu">
+          {/* <div id="menu">
             <div id="color-scheme">Color Scheme</div>
             <div id="info-professional">Professional Info</div>
             <div id="info-personal">Personal Info</div>
             <div id="about-me">About Me</div>
-          </div>
+          </div> */}
           <div id="info-card">
             <div id="section">
               <h2>Education</h2>
@@ -136,20 +136,6 @@ const Home = () => {
                 </div>
                 <div id="col2">
                   <h3>Summer/Fall 23</h3>
-                </div>
-              </div>
-              <div id="row">
-                <div id="col1">
-                  <div id="img-title">
-                    <img src={mishra} alt="Mishra Research Labs" class="icon" />
-                    <h3>Mishra Research Lab</h3>
-                  </div>
-                  <h4 id="sub-img-title">
-                    Software Development Undergraduate Researcher
-                  </h4>
-                </div>
-                <div id="col2">
-                  <h3>Fall 22</h3>
                 </div>
               </div>
               <div id="row">
@@ -203,15 +189,30 @@ const Home = () => {
                 </div>
                 <div id="col2">
                   <h3>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                      alt="java icon"
+                    />
 
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" />
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg"
+                      alt="postgres icon"
+                    />
 
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
+                      alt="html icon"
+                    />
 
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                      alt="javascript icon"
+                    />
 
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
+                      alt="css icon"
+                    />
                   </h3>
                 </div>
               </div>
@@ -237,11 +238,20 @@ const Home = () => {
                 </div>
                 <div id="col2">
                   <h3>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
+                      alt="html icon"
+                    />
 
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                      alt="javascript icon"
+                    />
 
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
+                      alt="css icon"
+                    />
                   </h3>
                 </div>
               </div>
@@ -267,11 +277,20 @@ const Home = () => {
                 </div>
                 <div id="col2">
                   <h3>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                      alt="java icon"
+                    />
 
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" />
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg"
+                      alt="postgres icon"
+                    />
 
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                      alt="python icon"
+                    />
                   </h3>
                 </div>
               </div>
@@ -316,11 +335,11 @@ const Home = () => {
                     <h3>Student Government, TAMU</h3>
                   </div>
                   <h4 id="sub-img-title">
-                    Executive Branch -- Service Committee
+                    Service Committee, Programs Representative
                   </h4>
                 </div>
                 <div id="col2">
-                  <h3>Fall 22 - Now</h3>
+                  <h3>Fall 22 - Summer 23</h3>
                 </div>
               </div>
               <div id="row">
@@ -333,10 +352,10 @@ const Home = () => {
                     />
                     <h3>Engineering Honors, TAMU</h3>
                   </div>
-                  <h4 id="sub-img-title">Fellow/Student Mentor</h4>
+                  <h4 id="sub-img-title">Student Mentor, Events Coordinator</h4>
                 </div>
                 <div id="col2">
-                  <h3>Summer 21 - Now</h3>
+                  <h3>Summer 21 - Summer 23</h3>
                 </div>
               </div>
             </div>
