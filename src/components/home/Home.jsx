@@ -4,7 +4,6 @@ import me from "../../assets/me.png"
 import resume from "../../assets/resume.pdf";
 import tamu from "../../assets/icons/tamu.png"
 import collins from "../../assets/icons/collins.png";
-import mishra from "../../assets/icons/mishra.png";
 import lavner from "../../assets/icons/lavner.jfif";
 import conte from "../../assets/icons/conte.png";
 import sga from "../../assets/icons/sga.png";
@@ -21,10 +20,10 @@ import { FaChessKing } from "react-icons/fa";
 import "./home.css"
 import Contact from "../contact/Contact.jsx";
 
-const devIconStyle = {
-  fill: "white",
-  width: "15px",
-};
+// const devIconStyle = {
+//   fill: "white",
+//   width: "15px",
+// };
 
 const Home = () => {
   return (
@@ -311,12 +310,14 @@ const Home = () => {
                     </a>
                   </div>
                   <h4 id="sub-img-title">
-                    A GUI of a mashup between SET and Solitaire
+                    A GUI of an original card game inspired by SET and Solitaire
                   </h4>
                 </div>
                 <div id="col2">
                   <h3>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                    alt="java icon" 
+                    />
                   </h3>
                 </div>
               </div>

@@ -1,5 +1,5 @@
 :root {
-    --primary-raw: 255, 255, 255;
+    --primary-raw: 202, 241, 215;
     --primary: rgb(var(--primary-raw));
     --primary-light: rgba(var(--primary-raw), 0.9);
     --primary-dark: rgba(var(--primary-raw), 0.3);
