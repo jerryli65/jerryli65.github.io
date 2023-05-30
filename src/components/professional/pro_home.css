@@ -10,7 +10,7 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 10px;
-            /*I wanted this to apply to the card but everything is okay too...for now, at least*/
+    /*I wanted this to apply to the card but everything is okay too...for now, at least*/
 }
 
 html {
@@ -168,7 +168,7 @@ img {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     background-image: linear-gradient(to right, rgba(55, 65, 81, 0.4), rgba(31, 41, 55, 0.7));
     backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px); 
+    -webkit-backdrop-filter: blur(5px);
     border: 3px solid rgba(255, 255, 255, 0.1);
     z-index: 2147483647;
     display: block;
@@ -206,13 +206,14 @@ img {
 
 #topelement {
     display: inline-block;
-        vertical-align: left;
+    vertical-align: left;
 }
 
 #bottomelement {
-display: inline-block;
+    display: inline-block;
     vertical-align: middle;
 }
+
 /* #info-card>* {
         font-size: 15px; 
 
@@ -278,7 +279,7 @@ display: inline-block;
     padding: 0.1rem 0;
 }
 
- /* div:hover > div > div > *.icon {
+/* div:hover > div > div > *.icon {
 	transition: all cubic-bezier(0.5, 0, 0.5, 1) 300ms;
 	transform: scale(1.1);
 }
@@ -317,6 +318,7 @@ display: inline-block;
     align-items: center;
     align-self: center;
 }
+
 #sub-img-title {
     margin-left: calc(16px + .3rem);
 }
@@ -347,7 +349,7 @@ display: inline-block;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin: 1rem 0 0 0; 
+    margin: 1rem 0 0 0;
 }
 
 #btn-resume {
@@ -433,10 +435,10 @@ a:hover>i {
 }
 
 #skills {
-    margin-top:.5rem;
+    margin-top: .5rem;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 /* The problem is the row isnt wide neough.*/
