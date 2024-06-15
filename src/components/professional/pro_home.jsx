@@ -115,7 +115,7 @@ const ProHome = () => {
                     <img src={tamu} alt="TAMU" class="icon" />
                     <h3>Texas A&M University</h3>
                   </div>
-                  <h4 id="sub-img-title">Honors B.S. in Computer Science</h4>
+                  <h4 id="sub-img-title">Bachelor of Science in Computer Science</h4>
                 </div>
                 <div id="col2">
                   <h3>May 24</h3>
