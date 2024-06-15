@@ -13,7 +13,6 @@ const Home = () => {
 
       <div className="container home__container">
         <ProHome />
-        
       </div>
 
       {/* <Footer /> */}
