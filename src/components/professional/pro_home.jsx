@@ -14,16 +14,11 @@ import { ImNewTab } from "react-icons/im";
 import { BsLinkedin } from "react-icons/bs";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillMail } from "react-icons/ai";
-import { AiFillFilePdf } from "react-icons/ai";
 import { FaChessKing } from "react-icons/fa";
+import { ImProfile } from "react-icons/im";
 
 import "./pro_home.css";
 import Contact from "../contact/Contact.jsx";
-
-// const devIconStyle = {
-//   fill: "white",
-//   width: "15px",
-// };
 
 const ProHome = () => {
   return (
@@ -49,7 +44,6 @@ const ProHome = () => {
                 rel="noopener noreferrer"
               >
                 <BsLinkedin size={20} color={"#caf1d7"} />
-                {/* LinkedIn */}
               </a>
               <a
                 href="https://github.com/jerryli65/"
@@ -63,33 +57,9 @@ const ProHome = () => {
                 <AiFillMail size={20} color={"#caf1d7"} />
               </a>
               <a href={resume} target="_blank" rel="noopener noreferrer">
-                {/* <i id="resume" class="far fa-file-pdf"></i> */}
-                {/* RESUME */}
-                <AiFillFilePdf size={20} color={"#caf1d7"} />
+                <ImProfile size={20} color={"#caf1d7"} />
               </a>
             </div>
-            {/* <div id="skills">
-                <i class="devicon-cplusplus-plain"></i>
-                <i class="devicon-python-plain"></i>
-                <i class="devicon-java-plain"></i>
-                <i class="devicon-r-original"></i>
-              </div>
-
-              <br />
-              <div id="skills">
-                <i class="devicon-html5-plain"></i>
-                <i class="devicon-javascript-plain"></i>
-                <i class="devicon-css3-plain"></i>
-                <i class="devicon-react-original"></i>
-              </div>
-                <br />
-
-              <div id="skills">
-                <i class="devicon-windows8-original"></i>
-                <i class="devicon-linux-plain"></i>
-                <i class="devicon-ubuntu-plain"></i>
-                <i class="devicon-git-plain"></i>
-              </div> */}
 
             <div id="contactme">
               <Contact />
@@ -99,12 +69,6 @@ const ProHome = () => {
 
         <hr id="vertical-divider" />
 
-        {/* <div id="menu">
-            <div id="color-scheme">Color Scheme</div>
-            <div id="info-professional">Professional Info</div>
-            <div id="info-personal">Personal Info</div>
-            <div id="about-me">About Me</div>
-          </div> */}
         <div id="right-card-wrapper">
           <div id="info-card">
             <div id="section">
@@ -184,7 +148,6 @@ const ProHome = () => {
               <div id="row">
                 <div id="col1">
                   <div id="img-title">
-                    {/* <img src={paycom} alt="Paycom" class="icon" /> */}
                     <FaChessKing color="tan" />
                     <h3>Household Management Optimization Application</h3>
                     <a
@@ -275,7 +238,6 @@ const ProHome = () => {
               <div id="row">
                 <div id="col1">
                   <div id="img-title">
-                    {/* <img src={conte} alt="Conte Research Labs" class="icon" /> */}
                     <FaChessKing color="tan" />
                     <h3>SETitaire Card Game</h3>
 
